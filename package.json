@@ -1,14 +1,13 @@
 {
+  {
   "name": "cia-work",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --force"
-    + "build": "vite build",
-    "lint": "eslint .",
+    "build": "vite build --force",
     "preview": "vite preview"
+  },
+
   },
   "dependencies": {
     "docx": "^9.5.1",
